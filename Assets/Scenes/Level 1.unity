@@ -171,7 +171,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 4.9681087
   MaxDistance: 10.095755
   Pan2D: 0
   rolloffMode: 0
@@ -319,12 +319,12 @@ PrefabInstance:
     - target: {fileID: 4779686298001912341, guid: eb83cc77bc401864eaefa6f8232ac2f3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.5595206
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4779686298001912341, guid: eb83cc77bc401864eaefa6f8232ac2f3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.1211903
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 4779686298001912341, guid: eb83cc77bc401864eaefa6f8232ac2f3,
         type: 3}
@@ -388,12 +388,12 @@ PrefabInstance:
     - target: {fileID: 2394137447664953139, guid: f1cecf39916e62241aa88bd988514bfd,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.4446022
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2394137447664953139, guid: f1cecf39916e62241aa88bd988514bfd,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.1489084
+      value: -3.5
       objectReference: {fileID: 0}
     - target: {fileID: 2394137447664953139, guid: f1cecf39916e62241aa88bd988514bfd,
         type: 3}
@@ -457,12 +457,12 @@ PrefabInstance:
     - target: {fileID: 3757173687083231324, guid: c5bda76f7102b6f458a5820ba012a89e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.54
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3757173687083231324, guid: c5bda76f7102b6f458a5820ba012a89e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.53
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3757173687083231324, guid: c5bda76f7102b6f458a5820ba012a89e,
         type: 3}
