@@ -29,5 +29,4 @@ public class Coin : MonoBehaviour {
 			DestroyObject(this.gameObject);
 		}
 	}
-
 }
