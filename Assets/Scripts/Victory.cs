@@ -25,8 +25,9 @@ public class Victory : MonoBehaviour {
 			other.gameObject.GetComponent<CharacterController2D>().Victory();
 
 			// destroy the victory gameobject
-			DestroyObject(this.gameObject);
-		}
+			//DestroyObject(this.gameObject);
+            Destroy(gameObject);
+        }
 	}
 
 }
