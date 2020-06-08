@@ -43,7 +43,7 @@ public class PlatformMover : MonoBehaviour {
 			_transform.position = Vector3.MoveTowards(_transform.position, myWaypoints[_myWaypointIndex].transform.position, moveSpeed * Time.deltaTime);
 
 			// if the enemy is close enough to waypoint, make it's new target the next waypoint
-			if(Vector3.Distance(myWaypoints[_myWaypointIndex].transform.position, _transform.position) <= 0) {
+			if(Vector3.Distance(myWaypoints[_myWaypointIndex].transform.position, _transform.position) <= 0.2) {
 				_myWaypointIndex++;
 				_moveTime = Time.time + waitAtWaypointTime;
 			}

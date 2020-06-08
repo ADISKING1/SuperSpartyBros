@@ -1733,6 +1733,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: MobileSingleStickControl
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 9529ecc3d479da5499993355e6c2cb4f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 9529ecc3d479da5499993355e6c2cb4f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: 9529ecc3d479da5499993355e6c2cb4f, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -2473,7 +2481,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3289b50fcbbb3e499ab6b94c7d64e3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelAfterVictory: GameWin
+  levelAfterVictory: Level 2
   levelAfterGameOver: GameLose
   score: 0
   highscore: 0
